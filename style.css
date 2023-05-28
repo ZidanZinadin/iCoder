@@ -138,3 +138,13 @@ form{
     font-size: 0.8rem; /* Adjust the smaller font size for p on small screens */
   }
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
