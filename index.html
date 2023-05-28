@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <title>iCoder</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <section class="container">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="about-img/iCoder-1.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <!-- Added 'justify-content-end' class -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav-option" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="/course.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  </section>
+
+  <!-- Carousel -->
+
+  <section class="container">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="about-img/Untitled-3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="h5b">Best Graphics Design</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="about-img/flipsnack-Hp4RPL_Z6wE-unsplash.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="h5b">The Best Coding Blog</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="about-img/tom-claes-DkAEPVsK2_8-unsplash.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="h5b">Learn Best VFX</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Courses -->
+
+  <section class="container">
+    <h1 class="h1c">Online Courses</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="course-img/pexels-burst-374016.jpg" alt="...">
+          <div class="card-body d-flex flex-column align-items-center">
+            <a class="link-cour" href="/course.html">
+              <h5 class="card-title text-center">Graphics Design</h5>
+            </a>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed fuga
+              aspernatur optio numquam impedit dolorum suscipit assumenda ullam laborum.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat the same modifications for the other card sections -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="course-img/pexels-christina-morillo-1181474.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column align-items-center">
+            <a class="link-cour" href="/course.html">
+              <h5 class="card-title text-center">Marketing</h5>
+            </a>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed fuga
+              aspernatur optio numquam impedit dolorum suscipit assumenda ullam laborum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="course-img/pexels-olia-danilevich-4974915.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column align-items-center">
+            <a class="link-cour" href="/course.html">
+              <h5 class="card-title text-center">Web Development</h5>
+            </a>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed fuga
+              aspernatur optio numquam impedit dolorum suscipit
+              assumenda ullam laborum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="course-img/pexels-vlada-karpovich-4050466.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column align-items-center">
+            <a class="link-cour" href="/course.html">
+              <h5 class="card-title text-center">SEO and Ads</h5>
+            </a>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed fuga
+              aspernatur optio numquam impedit dolorum suscipit
+              assumenda ullam laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Review -->
+
+  <section class="container">
+    <h1 class="h1c">Client Reviews</h1>
+    <div class="row text-center">
+      <div class="col-md-12">
+        <!-- Carousel wrapper -->
+        <div id="carouselBasicExample" class="carousel slide carousel-dark" data-mdb-ride="carousel">
+          <!-- Inner -->
+          <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+              <div class="mt-5 mb-4">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                  class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100" height="100" />
+              </div>
+              <p class="lead font-italic mx-4 mx-md-5">
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!"
+              </p>
+              <p class="text-muted mb-0">- Anna Morian</p>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+              <div class="mt-5 mb-4">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
+                  class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100" height="100" />
+              </div>
+              <p class="lead font-italic mx-4 mx-md-5">
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!"
+              </p>
+              <p class="text-muted mb-0">- Teresa May</p>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+              <div class="mt-5 mb-4">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100" height="100" />
+              </div>
+              <p class="lead font-italic mx-4 mx-md-5">
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!"
+              </p>
+              <p class="text-muted mb-0">- Kate Allise</p>
+            </div>
+          </div>
+          <!-- Inner -->
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel wrapper -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section>
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h3>iCoder</h3>
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <ul class="list-unstyled">
+              <li><a class="text-white">Graphic Design</a></li>
+              <li><a class="text-white">Web Design</a></li>
+              <li><a class="text-white">Business</a></li>
+              <li><a class="text-white">Marketing</a></li>
+              <li><a class="text-white">Engineering</a></li>
+            </ul>
+          </div>
+
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <ul class="list-unstyled">
+              <li><a class="text-white">Graphic Design</a></li>
+              <li><a class="text-white">Web Design</a></li>
+              <li><a class="text-white">Business</a></li>
+              <li><a class="text-white">Marketing</a></li>
+              <li><a class="text-white">Engineering</a></li>
+            </ul>
+          </div>
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <ul class="list-unstyled">
+              <li><a class="text-white">Graphic Design</a></li>
+              <li><a class="text-white">Web Design</a></li>
+              <li><a class="text-white">Business</a></li>
+              <li><a class="text-white">Marketing</a></li>
+              <li><a class="text-white">Engineering</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2021 Copyright By
+      <a class="text-white" href="https://mdbootstrap.com/">iCoder.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- Footer -->
+
+  <!-- Bootstrap JS -->
+  <script src="bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Jquery -->
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous">
+    </script>
+
+  <!-- Bootstrap and MDB JavaScript dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.10.0/js/mdb.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+.container{
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+
+
+.navbar-brand{
+  color: #fff;
+  font-weight: 700;
+}
+.navbar-brand:hover{
+  color: #ffffff;
+}
+
+i{
+  color: #fff;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar{
+  background-color:#2596be;
+}
+
+.nav-option{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav-option:hover{
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Carousel */
+
+.carousel{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Courses */
+
+.h1c{
+  text-align: center;
+  padding: 20px;
+}
+
+.link-cour{
+  color: #000000;
+  text-decoration: none;
+}
+.link-cour:hover{
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* Review */
+
+
+/* Footer */
+
+footer{
+  background-color: #2596be;
+}
+
+#footer{
+  margin-bottom: 20px;
+}
+
+/*
+.footerf{
+  background-color: #000000;
+}
+*/
+
+ul.list-unstyled li a {
+    color: white;
+    text-decoration: none;
+    border-bottom: none; /* Remove the underline */
+}
+
+/* About Page */
+.image-container {
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.featurette{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* contact */
+form{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.btn-submit{
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-submit:hover{
+  background-color: #1d76fc;
+  color: #fff;
+}
